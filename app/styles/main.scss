@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Francois+One);
+@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  font-family: 'Didact Gothic', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  background-color: #fff;
+  box-sizing: border-box;
+  min-height: 100%;
+}
+
+h1, h2, h3 {
+  font-family: 'Francois One', Helvetica, Arial, sans-serif;
+}
+
+/** Larger Screens - desktops and tablets **/
+@media all and (min-width: 990px) {
+
+  body {
+    overflow-y: scroll;
+  }
+
+}
