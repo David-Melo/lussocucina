@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Francois+One);
+@import url(http://fonts.googleapis.com/css?family=Lato);
 @import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
 
 html,
@@ -11,7 +11,7 @@ body {
 
 body {
   position: relative;
-  font-family: 'Didact Gothic', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-weight: 300;
   background-color: #fff;
   box-sizing: border-box;
@@ -19,7 +19,33 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Francois One', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.add-bottom {
+  margin-bottom: 30px;
+}
+
+.remove-bottom {
+  margin: 0;
+}
+
+.featured-image {
+  position: relative;
+}
+
+.featured-image-caption {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #1a1a1a;
+  opacity: 0.6;
+  padding: 18px;
+  font-size: 16px;
+  font-weight: 100;
+  text-transform: uppercase;
 }
 
 /** Larger Screens - desktops and tablets **/
